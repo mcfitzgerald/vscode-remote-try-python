@@ -2,6 +2,9 @@
 	"name": "Python 3",
 	"context": "..",
 	"dockerFile": "Dockerfile",
+	
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=/absolute/path/on/remote/machine,target=/workspace,type=bind,consistency=cached"
 
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
